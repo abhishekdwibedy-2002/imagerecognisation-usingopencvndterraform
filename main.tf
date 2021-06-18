@@ -1,8 +1,8 @@
 
 provider "aws" {
-    region = "ap-south-1"
-    access_key = "AKIAX4DPQGU3FFF6DRBU"
-    secret_key = "zC9OYYcGlqbpP7yeY0I9SJ5/Tbi+jdEBRCdLB0Kx"
+    region = "ap-south-1" #region id which u want to selecdt
+    access_key = "#access key of your IAM USER AWS Account"
+    secret_key = "#Secret key of your IAM USER AWS Account"
 }
 
 resource "aws_instance" "web" {
