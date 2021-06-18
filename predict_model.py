@@ -57,11 +57,11 @@ while True:
                 import pywhatkit as kit
                 #sending mail
 
-                kit.send_mail("abhishekdwibedy1@gmail.com" , #sender mailaddress
-                              "Abhishek@2002" ,              #password of sender Mail id
+                kit.send_mail("sender mailaddress" , 
+                              "password of sender Mail id" ,              #password of sender Mail id
                               "!! SECURITY ALERT !!" ,       # Subject Of Email that to send to receiver
                               "Hey Abhishek..  Your Face has Been Detected In WebCamera." ,        #Message 
-                              "dwibedyabhishek1@gmail.com")   #Receiver emailaddress
+                              "Receiver emailaddress")   
                 print("Email Sent Successfully !!!")
 
 
@@ -90,11 +90,11 @@ while True:
 
                 import pywhatkit as kit
 
-                kit.send_mail("abhishekdwibedy1@gmail.com" , #sender mailaddress
-                              "Abhishek@2002" ,              #password of sender Mail id
+                kit.send_mail("sender mailaddress" , 
+                              "password of sender Mail id" ,              #password of sender Mail id
                               "!! SECURITY ALERT !!" ,       # Subject Of Email that to send to receiver
-                              "A Face Has Been Detected In Your WebCamera" ,        #Message 
-                              "dwibedyabhishek1@gmail.com")   #Receiver emailaddress
+                              "Hey Abhishek..  Your Face has Been Detected In WebCamera." ,        #Message 
+                              "Receiver emailaddress")   
                 print("Email Sent Successfully !!!")
 
                 os.system("terraform init")
